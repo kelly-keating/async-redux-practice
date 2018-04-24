@@ -20,6 +20,4 @@ const mapStateToProps = (state) => {
   }
 }
 
-export default connect(
-  mapStateToProps
-)(Subreddit)
+export default connect(mapStateToProps)(Subreddit)
