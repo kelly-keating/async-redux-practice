@@ -1,7 +1,10 @@
 import React from 'react'
 
-const Post = ({title}) => (
-  <div>{title}</div>
+const Post = ({post}) => (
+  <div>
+    <img className='thumbnail' src={post.thumbnail} />
+    {post.title}
+  </div>
 )
 
 export default Post

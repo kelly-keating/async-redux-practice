@@ -11,6 +11,7 @@ export const requestPosts = () => {
 }
 
 export const receivePosts = (posts) => {
+  console.log(posts)
   return {
     type: RECEIVE_POSTS,
     posts: posts.map(post => post.data)
